@@ -108,7 +108,7 @@ function CreateOrder() {
               </p>
             )}
           </div>
-          {!position.latitude && !position.longitude &&<span className="absolute right-[3px] z-50 top-[2.2rem] sm:top-[3px] md:right-[5px] md:top-[5px]">
+          {!position.latitude && !position.longitude &&<span className="absolute right-[3px] z-50 top-[35.2px] sm:top-[1.5px] md:right-[3px] md:top-[3px]">
             <Button disabled={isLoadingAddress} type="small" onClick={(e) => {
               e.preventDefault()
               dispatch(fetchAddress())}}>

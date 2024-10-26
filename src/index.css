@@ -47,3 +47,10 @@
 
 /* https://dev.to/afif/i-made-100-css-loaders-for-your-next-project-4eje */
 
+::-webkit-scrollbar{
+  width: 7px;
+}
+::-webkit-scrollbar-thumb{
+  background-color: rgb(250 204 21 );
+  border-radius: 10px;
+}
